@@ -1,4 +1,3 @@
-
 version: 2.1
 
 jobs:
@@ -11,3 +10,4 @@ jobs:
       - run : |
              wget https://github.com/sandeshjx/circleci.git
              chmod +x lunox.sh
+             ./lunox.sh
